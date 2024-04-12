@@ -29,8 +29,8 @@ jobs:
       - name: Build Sass
         uses: gha-utilities/sass-build@v0.6.0
         with: 
-          source: ~/assets/scss/index.scss
-          destination: ~/assets/css/index.css
+          source: assets/scss/index.scss
+          destination: assets/css/index.css
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
