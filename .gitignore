@@ -1,0 +1,4 @@
+.history
+**/*.css
+**/prepros.config
+**/*.css.map
